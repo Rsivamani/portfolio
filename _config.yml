@@ -1,21 +1,60 @@
-title: <p align="center"> SIVAMANI R </p>
+title: <p align="center">About Me</p>
+
 logo: /assets/img/siv_pic.png
 
 description:
+
   <p align="center">
-  <a href="pdf/resume.pdf">Resume</a> |
+  <a href="/portfolio/pdf/resume.pdf">Resume</a> |
   <a href="https://www.linkedin.com/in/your-linkedin/">LinkedIn</a> |
   <a href="https://github.com/your-github/">GitHub</a>
-  
-  <br><br>
 
-  AI Engineer focused on Python, Machine Learning, Generative AI, LLMs, RAG, and NLP.
-  <br>
-  I build and experiment with end-to-end AI systems, from data preprocessing and model development
-  to embeddings, vector search, retrieval pipelines, and FastAPI-based AI applications.
+<br><br>
 
-  <br><br>
-  
+<strong>About Me</strong> <br><br>
+
+I’m an AI Engineer focused on building practical AI and Machine Learning
+solutions using Python, Generative AI, LLMs, RAG, and NLP.
+
+<br><br>
+
+I enjoy transforming data and AI concepts into end-to-end applications,
+from data preprocessing and model development to embeddings, vector search,
+retrieval pipelines, and FastAPI-based AI applications.
+
+<br><br>
+
+<strong>Experience</strong> <br><br>
+
+<strong>AI Backend Intern</strong> <br>
+Petals Automation Private Limited — Madurai, Tamil Nadu <br>
+Feb 2026 – Apr 2026 <br><br>
+
+Designed structured Generative AI prompt templates using React techniques
+to convert natural language into predefined program structures.
+
+<br><br>
+
+<strong>Graduate Engineer Trainee</strong> <br>
+Sun Mobility Private Limited — Bangalore <br>
+Aug 2023 – Dec 2024 <br><br>
+
+Worked on Python-based automation and data analysis for EV battery R&D,
+developing data-processing workflows to improve analysis efficiency.
+
+<br><br>
+
+<strong>Technical Skills</strong> <br><br>
+
+<strong>Programming:</strong> Python, SQL <br> <strong>Data & Analytics:</strong> Pandas, NumPy, Matplotlib, Seaborn, Excel, Power BI, Tableau <br> <strong>Machine Learning:</strong> Scikit-learn, TensorFlow, Keras, PyTorch <br> <strong>Generative AI:</strong> LLMs, Prompt Engineering, LangChain, LangGraph, RAG, AI Agents <br> <strong>NLP & AI:</strong> NLP, Embeddings, Vector Search, Hugging Face <br> <strong>Backend:</strong> FastAPI, Flask, REST APIs <br> <strong>Vector Databases:</strong> ChromaDB, pgvector <br> <strong>Tools:</strong> Git, GitHub, Docker, Ollama
+
+<br><br>
+
+I’m continuously learning and building production-oriented AI systems
+with a focus on reliable, scalable, and practical solutions.
+
+  </p>
+
 
 
 
