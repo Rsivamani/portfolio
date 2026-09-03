@@ -1,9 +1,9 @@
 
-# Sivamani Portfolio
+# SIVAMANI PORTFOLIO
 
-# Projects
+# PROJECTS
 
-## 01. Streaming AI Agent for Arduino
+## 01. Generative AI Query Agent 
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=github)](https://github.com/Rsivamani/Streaming-AI-agent-for-Arduino)
 
