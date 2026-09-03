@@ -1,85 +1,187 @@
-# Data Science Portfolio
----
-## Machine learning
 
-### Fraud Detection
+# AI Engineer Portfolio
 
-Fraud detection is a set of processes and analyses that allow businesses to identify and prevent unauthorized financial activity. This can include fraudulent credit card transactions, identify theft, cyber hacking, insurance scams, and more.
+# Projects
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/sajankedia/fraud_detection)
+## 01. Streaming AI Agent for Arduino
 
-<center><img src="assets/img/fraud_detection.jpg"/></center>
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=github)](https://github.com/Rsivamani/Streaming-AI-agent-for-Arduino)
 
----
-### Financial-Models-Numerical-Methods
+A **streaming ReAct-based AI agent** designed to answer Arduino-related questions using grounded knowledge retrieval. The system combines agent orchestration, LLM reasoning, persistent conversational state, and a FastAPI backend into an end-to-end AI workflow.
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/sajankedia/Financial-Models-Numerical-Methods)
+**Key Technologies:** `Python` `LangGraph` `ReAct` `Gemini` `FastAPI` `PostgreSQL` `AsyncPG` `JWT` `Docker`
 
-This is just a collection of topics and algorithms that in my opinion are interesting.
+**Highlights**
 
-It contains several topics that are not so popular nowadays, but that can be very powerful. Usually, topics such as PDE methods, Lévy processes, Fourier methods or Kalman filter are not very popular among practitioners, who prefers to work with more standard tools.
-The aim of these notebooks is to present these interesting topics, by showing their practical application through an interactive python implementation.
+- Implemented a **LangGraph ReAct agent** for tool-driven reasoning.
+- Added **streaming responses** through FastAPI.
+- Implemented persistent conversational state with PostgreSQL-backed checkpoints.
+- Connected retrieval with generation to keep responses grounded in available knowledge.
+- Structured the project around reusable backend components.
 
-<center><img src="assets/img/financial_modeling.jpg"/></center>
-
----
-### LSTM Neural Network for Time Series Prediction
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/sajankedia/LSTM-Neural-Network-for-Time-Series-Prediction)
-
-The following article sections will briefly touch on LSTM neuron cells, give a toy example of predicting a sine wave then walk through the application to a stochastic time series. The article assumes a basic working knowledge of simple deep neural networks.
-
-<center><img src="https://camo.githubusercontent.com/a085b4fe60690252b8aa2de917c53fc3f63aec21aafea21c8f1ecb543d2c44cb/68747470733a2f2f7777772e616c74756d696e74656c6c6967656e63652e636f6d2f6173736574732f74696d652d7365726965732d70726564696374696f6e2d7573696e672d6c73746d2d646565702d6e657572616c2d6e6574776f726b732f73696e776176655f66756c6c5f7365712e706e67"/></center>
+<center>
+  <img src="assets/img/streaming_ai_agent.png" alt="Streaming AI Agent for Arduino" width="900">
+</center>
 
 ---
-### Text Classification
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/sajankedia/cnn-text-classification-tf#readme)
+## 02. Information Retrieval using RAG
 
-It is slightly simplified implementation of Kim's Convolutional Neural Networks for Sentence Classification paper in Tensorflow.
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=github)](https://github.com/Rsivamani/Information-retrival-using-RAG)
 
-<center><img src="assets/img/text_classification.png"/></center>
+A **Retrieval-Augmented Generation system** focused on retrieving relevant information from a document corpus before generating an answer. The project demonstrates the core RAG pipeline from document processing and embeddings to semantic retrieval and grounded generation.
 
----
-### Awesome Machine Learning
+**Key Technologies:** `Python` `RAG` `Embeddings` `Vector Search` `LLMs`
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/sajankedia/awesome-machine-learning)
+**Highlights**
 
-A curated list of awesome machine learning frameworks, libraries and software (by language). Inspired by awesome-php.
+- Structured the pipeline around **document ingestion, chunking, embedding, retrieval, and generation**.
+- Explored semantic retrieval to identify relevant context before generation.
+- Designed the workflow around grounding LLM responses in retrieved information.
+- Provides a foundation for knowledge-based AI applications.
 
-<center><img src="assets/img/machine_learning.jpg"/></center>
-
----
-### Gesture Recognizer
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/sajankedia/CNNGestureRecognizer)
-
-Gesture recognition via CNN neural network implemented in Keras + Theano + OpenCV
-
-Key Requirements: Python 3.6.1 OpenCV 3.4.1 Keras 2.0.2 Tensorflow 1.2.1 Theano 0.9.0 (obsolete and not supported any further)
-
-Suggestion: Better to download Anaconda as it will take care of most of the other packages and easier to setup a virtual workspace to work with multiple versions of key packages like python, opencv etc.
-
-<center><img src="assets/img/gesture_recognition.jpg"/></center>
+<center>
+<img src="assets/img/rag_information_retrieval.png" alt="Information Retrieval using RAG" width="900">
+</center>
 
 ---
-### Human Activity Recognition
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/sajankedia/LSTM-Human-Activity-Recognition)
+## 03. Backend System for ML Model Serving using FastAPI
 
-Human Activity Recognition (HAR) using smartphones dataset and an LSTM RNN. Classifying the type of movement amongst six categories:
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=github)](https://github.com/Rsivamani/Backend-System-for-ML-Model-Serving-using-FastAPI)
 
-WALKING,
-WALKING_UPSTAIRS,
-WALKING_DOWNSTAIRS,
-SITTING,
-STANDING,
-LAYING.
-Compared to a classical approach, using a Recurrent Neural Networks (RNN) with Long Short-Term Memory cells (LSTMs) require no or almost no feature engineering. Data can be fed directly into the neural network who acts like a black box, modeling the problem correctly. Other research on the activity recognition dataset can use a big amount of feature engineering, which is rather a signal processing approach combined with classical data science techniques. The approach here is rather very simple in terms of how much was the data preprocessed.
+A backend engineering project that converts machine-learning workflows into **reusable REST APIs** using FastAPI. The system focuses on model training, validation, persistence, and inference through a consistent API layer.
 
-Let's use Google's neat Deep Learning library, TensorFlow, demonstrating the usage of an LSTM, a type of Artificial Neural Network that can process sequential data / time series.
+**Key Technologies:** `Python` `FastAPI` `Scikit-learn` `Pydantic` `Pandas` `NumPy` `Joblib` `Docker`
 
-<center><img src="assets/img/human_activity.jpg"/></center>
+**Highlights**
 
+- Converted **7 machine-learning workflows** into API-driven services.
+- Implemented `/health`, `/train`, and `/predict` endpoints.
+- Used **Scikit-learn Pipelines** to combine preprocessing and model inference.
+- Added model persistence using Joblib.
+- Added request validation with Pydantic.
+- Containerized the backend with Docker.
 
+<center>
+<img src="assets/img/fastapi_ml_model_serving.png" alt="FastAPI ML Model Serving" width="900">
+</center>
+
+---
+
+## 04. Image Caption Generator
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=github)](https://github.com/Rsivamani/Image-Caption-Generator-Model)
+
+An **image-to-text deep learning system** that combines convolutional visual feature extraction with recurrent language generation. The model learns to transform image representations into natural-language captions.
+
+**Key Technologies:** `Python` `TensorFlow` `Keras` `VGG16` `CNN` `LSTM` `NLP`
+
+**Dataset:** `Flickr8k` • `8,091 images` • `~40,455 captions`
+
+**Highlights**
+
+- Used pretrained **VGG16** for visual feature extraction.
+- Generated **4,096-dimensional image feature vectors**.
+- Built an LSTM sequence-generation pipeline.
+- Created image-caption training pairs for supervised learning.
+- Used categorical cross-entropy with Adam optimization.
+- Implemented greedy decoding with repetition prevention.
+
+<center>
+<img src="assets/img/image_caption_generator.png" alt="Image Caption Generator" width="900">
+</center>
+
+---
+
+## 05. AI-Powered Email Spam Detection
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=github)](https://github.com/Rsivamani/AI-Powered-Email-Spam-Detection)
+
+An **NLP-based classification system** that separates spam and legitimate emails through text preprocessing, feature extraction, supervised learning, and reusable model inference.
+
+**Key Technologies:** `Python` `Pandas` `NLTK` `Scikit-learn` `CountVectorizer` `Multinomial Naive Bayes`
+
+**Highlights**
+
+- Built reproducible text preprocessing using regex cleaning, stopword removal, and lemmatization.
+- Converted text into a **3,500-feature Bag-of-Words representation**.
+- Trained a Multinomial Naive Bayes classifier.
+- Serialized the trained model and vectorizer for reusable inference.
+- Reported **98% test accuracy** and **0.91 F1-score** on the spam class.
+
+<center>
+<img src="assets/img/spam_detection.png" alt="AI-Powered Email Spam Detection" width="900">
+</center>
+
+---
+
+## 06. Multi-Agent AI Customer Support System
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=github)](https://github.com/Rsivamani/Multi-AI-agent-system-using-Langflow)
+
+A **multi-agent customer-support workflow** that routes user queries to specialized capabilities for order information, product information, and FAQ retrieval. A manager agent coordinates the overall workflow.
+
+**Key Technologies:** `Langflow` `OpenAI GPT` `NVIDIA Embeddings` `Astra DB` `Python` `Streamlit` `RAG`
+
+**Highlights**
+
+- Designed specialized agents for different support tasks.
+- Added a manager layer for **query routing and agent coordination**.
+- Combined structured database access with document-based RAG.
+- Used Astra DB for vector search and semantic retrieval.
+- Integrated the workflow with a Streamlit interface and API endpoints.
+
+<center>
+<img src="assets/img/multi_agent_customer_support.png" alt="Multi-Agent AI Customer Support System" width="900">
+</center>
+
+---
+
+## 07. AI Research Agent using Python
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=github)](https://github.com/Rsivamani/AI-agent-with-python)
+
+A **tool-using AI research agent** that combines LLM reasoning with external information-retrieval tools. The agent determines when tools such as Wikipedia and DuckDuckGo are useful and returns structured research results.
+
+**Key Technologies:** `Python` `LangChain` `LLMs` `Wikipedia` `DuckDuckGo` `Pydantic`
+
+**Highlights**
+
+- Implemented tool-aware LLM workflows.
+- Connected model reasoning with external information retrieval.
+- Used Pydantic for structured outputs.
+- Produced research summaries containing topic information, sources, and tools used.
+- Persisted research outputs to timestamped text files.
+
+<center>
+<img src="assets/img/ai_research_agent.png" alt="AI Research Agent using Python" width="900">
+</center>
+
+---
+
+## 08. NYC Taxi Record Analysis
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=github)](https://github.com/Rsivamani/NYC_taxi_record_analysis)
+
+A large-scale **exploratory data analysis project** using NYC taxi trip records to uncover demand patterns, pickup behaviour, payment preferences, trip characteristics, and operational trends.
+
+**Key Technologies:** `Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `SQL`
+
+**Dataset Scale:** `2M+ records`
+
+**Highlights**
+
+- Analysed **2M+ taxi trip records**.
+- Identified and removed approximately **8% anomalies** during data cleaning.
+- Found **6 PM** as the busiest pickup hour with approximately **199K trips**.
+- Identified Wednesday as the busiest day with approximately **463K trips**.
+- Found approximately **82% of riders used credit cards**.
+- Converted analytical findings into practical operational recommendations.
+
+<center>
+<img src="assets/img/nyc_taxi_analysis.png" alt="NYC Taxi Record Analysis" width="900">
+</center>
+
+---
 
